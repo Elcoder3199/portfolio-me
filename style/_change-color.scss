@@ -1,0 +1,92 @@
+/* ==============  Change Colors Of Website ================ */
+
+body.light {
+  background-color: $color-bg;
+}
+
+body.light .section {
+  background-color: $color-white;
+  color: $color-grey-6;
+}
+
+body.light .header-content span,
+body.light .main-title span,
+body.light .controls .active-btn {
+  color: $color-red !important;
+}
+
+body.light .main-btn {
+  .btn-icon {
+    background-color: $color-red;
+    color: $color-grey-6 !important;
+  }
+
+  &:hover {
+    &::before {
+      background-color: $color-red;
+    }
+  }
+}
+
+body.light .main-title .bg-text {
+  color: #00000022 !important;
+}
+
+body.light .main-title h2 {
+  color: $color-grey-6;
+}
+
+body.light .educations-content .educations .education,
+body.light .contact-content-con .right-contact .input-control input,
+body.light .contact-content-con .right-contact .input-control textarea {
+  background-color: #f6f3f3 !important;
+  color: $color-grey-6;
+}
+
+body.light .educations-content .educations .education .education-text p {
+  color: $color-grey-4 !important;
+}
+
+body.light .controls {
+  @media (max-width: 620px) {
+    background-color: #efe9e9;
+  }
+}
+
+body.light .active-btn,
+body.light .portfolios .portfolio-item .hover-items,
+body.light .about-container .about-stats .progress-bars .progress-bar .progress-con .progress span,
+body.light .portfolios .portfolio-item .hover-items,
+body.light .h-shape,
+body.light .progress-bar span {
+  background-color: $color-red !important;
+}
+
+body.light .main-btn span,
+body.light .main-title h2,
+body.light .about-container p,
+body.light .name,
+body.light .header-content p {
+  color: $color-grey-6 !important;
+}
+
+body.light .main-btn,
+body.light .filter-btns .filter-button a {
+  border: 1px solid $color-red;
+  color: #111;
+}
+
+body.light::-webkit-scrollbar-thumb,
+body.light .filter-btns .filter-button a.active,
+body.light .filter-btns .filter-button a:hover {
+  background-color: $color-red;
+}
+
+body.light::-webkit-scrollbar-thumb:hover {
+  background-color: #f566917e;
+}
+
+body.light .sk-spinner-wordpress.sk-spinner {
+  background-color: #f56692 !important;
+}
+/* =============== End Change Colors Of Website ============== */
